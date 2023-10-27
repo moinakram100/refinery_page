@@ -5,118 +5,145 @@
 			"key": 0,
 			"title": "PLATFORMING",
 			"icon": "sap-icon://checklist",
-			"status": "Error",
-			"group":"R",
-			"color":"green"
+			"shape":"Box",
+			"status": "CustomRed",
+			"group":"R"
 		},
 		{
 			"key": 1,
 			"title": "SAT LPG MEROX",
-			"icon": "sap-icon://bubble-chart",
-			"group" : "G"
+			"group" : "G",
+			"icon":"sap-icon://mileage",
+			"shape":"Box",
+			"status":"CustomGreen"
 		},
 		{
 			"key": 2,
 			"title": "SRU",
 			"icon": "sap-icon://back-to-top",
-			"group":"Y"
+			"group":"Y",
+			"shape":"Box",
+			"status":"CustomYellow"
 		},
 		{
 			"key": 3,
 			"title": "PENEX",
-			"icon": "sap-icon://competitor",
-			"status": "Success",
-			"group":"R",
-			"color":"red"
+			"shape":"Box",
+			"icon": "sap-icon://checklist",
+			"status": "CustomRed",
+			"group":"R"
 		},
 		{
 			"key": 4,
-			"title": "KEROSINE MEROX",
-			"icon": "sap-icon://pipeline-analysis",
+			"title": "KEROSENE MEROX",
+			"shape":"Box",
+			"status":"CustomGreen",
+			"icon": "sap-icon://mileage",
 			"group": "G"
 		},
 		{
 			"key": 9,
 			"title": "JET FUEL",
-			"icon": "sap-icon://wounds-doc",
+			"shape":"Box",
+			"status":"CustomGray",
+			"icon": "sap-icon://mileage",
 			"group":"Gr",
 			"y" : 100
 		},
 		{
 			"key": 6,
 			"title": "DIESEL",
-			"icon": "sap-icon://close-command-field",
+			"shape":"Box",
+			"status":"CustomGray",
+			"icon": "sap-icon://mileage",
 			"group":"Gr"
 		},
 		{
 			"key": 7,
 			"title": "PROPANE",
+			"shape":"Box",
+			"status":"CustomPink",
 			"icon": "sap-icon://sort-descending",
 			"group":"Gr"
 		},
 		{
 			"key": 8,
 			"title": "H2 PLANT (INCLUDING PSA)",
-			"icon": "sap-icon://key-user-settings",
-			"status": "Warning",
+			"shape":"Box",
+			"icon": "sap-icon://heading2",
+			"status": "CustomBlue",
 			"group":"R"
 		},
 		{
 			"key": 5,
 			"title": "GASOLINE",
+			"shape":"Box",
 			"icon": "sap-icon://laptop",
-			"status": "Warning",
+			"status": "CustomGray",
 			"group":"Gr"
 		},
 		{
 			"key": 10,
 			"title": "POLYPROPYLENE UNIT",
+			"shape":"Box",
 			"icon": "sap-icon://radar-chart",
-			"status": "Success",
+			"status": "CustomBlue",
 			"group":"B"
 		},
 		{
 			"key": 11,
 			"title": "NHT/ NAPHTHA SPLITTER/ NSU",
+			"shape":"Box",
 			"icon": "sap-icon://radar-chart",
-			"status": "Success",
+			"status": "CustomRed",
 			"group":"R"
 		},
 		{
 			"key": 12,
 			"title": "C4 SHP",
 			"group":"P",
+			"shape":"Box",
+			"status":"CustomPink",
 			"icon": "sap-icon://vertical-stacked-chart"
 		},
 		{
 			"key": 13,
 			"title": "MHC UNICRACKING",
+			"shape":"Box",
 			"icon": "sap-icon://value-help",
-			"group":"R"
+			"group":"R",
+			"status":"CustomGreen"
 		},
 		{
 			"key": 14,
 			"title": "UNSAT LPG MEROX",
-			"icon": "sap-icon://technical-object",
-			"status": "Error",
+			"shape":"Box",
+			"icon": "sap-icon://blur",
+			"status": "CustomBlue",
 			"group":"B"
 		},
 		{
 			"key": 15,
 			"title": "Carbon Black Feedstock",
 			"group":"Y",
+			"status":"CustomGray",
+			"shape":"Box",
 			"icon": "sap-icon://measuring-point"
 		},
 		{
 			"key": 16,
 			"title": "FUEL OIL/ BUNKER OIL",
-			"icon": "sap-icon://map-3",
-			"group":"Y"
+			"icon": "sap-icon://blur",
+			"group":"Y",
+			"shape":"Box",
+			"status":"CustomGray"
 		},
 		{
 			"key": 17,
 			"title": "RFCC GASOLINE HDS",
-			"icon": "sap-icon://open-folder",
+			"icon": "sap-icon://mileage",
+			"shape":"Box",
+			"status":"CustomBlue",
 			"group":"B"
 		},
 		{
@@ -124,99 +151,119 @@
 			"title": "SAR PLANT",
 			"icon": "sap-icon://pool",
 			"group": "P",
-			"status": "Success"
+			"shape":"Box",
+			"status": "CustomPink"
 		},
 		{
 			"key": 19,
 			"title": "DIB/ALKYLATION",
 			"group":"P",
+			"shape":"Box",
+			"status":"CustomPink",
 			"icon": "sap-icon://pushpin-off"
 		},
 		{
 			"key": 20,
 			"title": "BUTAMER",
+			"shape":"Box",
 			"icon": "sap-icon://pharmacy",
-			"status": "Error",
+			"status": "CustomPink",
 			"group":"P"
 		},
 		{
 			"key": 21,
-			"title": "SAT GAS CON AND DEPROPANIZER",
+			"title":"SAT GAS CON AND DEPROPANIZER",
 			"icon": "sap-icon://mileage",
 			"group": "G",
-			"status": "Success"
+			"shape":"Box",
+			"status": "CustomGreen"
 		},
 		{
 			"key": 22,
 			"title": "CAUSTIC SCRUBBER",
+			"shape":"Box",
 			"group" : "Y",
+			"status":"CustomYellow",
 			"icon": "sap-icon://Netweaver-business-client"
 		},
 		{
 			"key": 23,
 			"title": "UNSAT GAS CON/ GASOLINE SPLITTER",
-			"icon": "sap-icon://restart",
-			"group":"B"
+			"shape":"Box",
+			"icon": "sap-icon://blur",
+			"group":"B",
+			"status":"CustomBlue"
 		},
 		{
 			"key": 24,
 			"title": "NON PHENOLIC SWS",
-			"icon": "sap-icon://repost",
-			"status": "Success",
+			"icon": "sap-icon://lab",
+			"shape":"Box",
+			"status": "CustomGray",
 			"group":"W"
 		},
 		{
 			"key": 31,
 			"title": "PRU",
 			"icon": "sap-icon://repost",
-			"status": "Success",
+			"status": "CustomBlue",
+			"shape":"Box",
 			"group":"B"
 		},
 		{
 			"key": 35,
 			"title": "PHENOLIC SWS",
-			"icon": "sap-icon://repost",
-			"status": "Success",
+			"icon": "sap-icon://lab",
+			"shape":"Box",
+			"status": "CustomGray",
 			"group":"W"
 		},
 		{
 			"key": 25,
 			"title": "RFCC RXn/REG PRT MAIN COLUMN",
 			"icon": "sap-icon://basket",
-			"group":"B"
+			"shape":"Box",
+			"group":"B",
+			"status":"CustomBlue"
 		},
 		{
 			"key": 26,
 			"title": "CDU",
-			"icon": "sap-icon://bbyd-dashboard",
+			"icon": "sap-icon://mileage",
 			"group": "G",
-			"status": "Success"
+			"shape":"Box",
+			"status": "CustomGreen"
 		},
 		{
 			"key": 27,
 			"title": "C5 MEROX",
-			"icon": "sap-icon://crossed-line-chart",
-			"status": "Success",
+			"icon": "sap-icon://blur",
+			"shape":"Box",
+			"status": "CustomBlue",
 			"group":"B"
 		},
 		{
 			"key": 28,
 			"title": "SAT ARU",
 			"icon": "sap-icon://horizontal-grip",
-			"status": "Success",
+			"shape":"Box",
+			"status": "CustomGray",
 			"group":"W"
 		},
 		{
 			"key": 29,
 			"title": "UNSAT ARU",
 			"icon": "sap-icon://flag",
-			"group":"W"
+			"shape":"Box",
+			"group":"W",
+			"status":"CustomGray"
 		},
 		{
 			"key": 30,
 			"title": "CRUDE",
-			"icon": "sap-icon://attachment"	,
-			"status": "Warning",
+			"shape":"Box",
+			"icon": "sap-icon://mileage"	,
+			"status": "CustomGreen",
 			"group":"G"
 		},
 		{
@@ -455,39 +502,282 @@
 					"label": "CUTTER STOCK KEROSENE/ LCO"
 				}
 			]
+		},
+		{
+			"key": 56,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "SOUR WATER TO SWS"
+				}
+			]
+		},
+		{
+			"key": 57,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "SOUR WATER TO SWS"
+				}
+			]
+		},
+		{
+			"key": 58,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "SOUR WATER TO SWS"
+				}
+			]
+		},
+		{
+			"key": 59,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "FG TO SAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 60,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "WILD NAPHTHA TO SAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 61,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "SOUR WATER TO SWS"
+				}
+			]
+		},
+		{
+			"key": 62,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "H2 FROM HGU"
+				}
+			]
+		},
+		{
+			"key": 63,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "FG TO UNSAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 64,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "PROPANE FROM DEPROPANIZER OF SAT GAS"
+				}
+			]
+		},
+		{
+			"key": 65,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "PURE H2 FROM HGU"
+				}
+			]
+		},
+		{
+			"key": 66,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "nC4/C4/ALKYL BUTANE TO GASOLINE BLEND"
+				}
+			]
+		},
+		{
+			"key": 67,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "TO GASOLINE BLEND"
+				}
+			]
+		},
+		{
+			"key": 68,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "RFCC TREATED GASOLINE TO TREATED GASOLINE BLEND"
+				}
+			]
+		},
+		{
+			"key": 69,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "COMPRESSED H2 FROM PENEX"
+				}
+			]
+		},
+		{
+			"key": 70,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "COMPRESS H2 TO C4 SHP/ BUTAMER"
+				}
+			]
+		},
+		{
+			"key": 71,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "UNSTAB LPG TO SAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 72,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "FG TO SAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 73,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "LIGHT NAPHTHA"
+				}
+			]
+		},
+		{
+			"key": 74,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "UNSTAB LPG TO SAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 75,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "FG TO SAT GAS CON"
+				}
+			]
+		},
+		{
+			"key": 76,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "SAT FG TO H2 PLANT/FG"
+				}
+			]
+		},
+		{
+			"key": 77,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "UNSAT C4 RECYCLE"
+				}
+			]
+		},
+		{
+			"key": 78,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "ACID GAS TO SRU"
+				}
+			]
+		},
+		{
+			"key": 79,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "PROPANE TO STORAGE"
+				}
+			]
+		},
+		{
+			"key": 80,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "STRIPPER OFF GAS"
+				}
+			]
 		}
 	],
 	"lines": [
 		{
 			"from": 26,
-			"to": 21,
-			"position": "End"
+			"to": 21
 		},
 		{
 			"from": 18,
-			"to": 19,
-			"position": "End"
+			"to": 19
 		},
 		{
 			"from": 19,
-			"to": 20,
-			"position": "End"
+			"to": 20
 		},
 		{
 			"from": 31,
-			"to": 10,
-			"position": "End"
+			"to": 10
 		},
 		{
 			"from": 12,
-			"to": 19,
-			"position": "End"
+			"to": 19
 		},
 		{
 			"from": 11,
-			"to": 21,
-			"status": "Warning",
-			"position": "Middle"
+			"to": 21
 		},
 		{
 			"from": 13,
@@ -497,8 +787,7 @@
 		},
 		{
 			"from": 3,
-			"to": 5,
-			"status": "Success"
+			"to": 5
 		},
 		{
 			"from": 24,
@@ -708,6 +997,161 @@
 		{
 			"from": 55,
 			"to": 16,
+			"status": "Success"
+		},
+		{
+			"from": 26,
+			"to": 56,
+			"status": "Success"
+		},
+		{
+			"from": 23,
+			"to": 57,
+			"status": "Success"
+		},
+		{
+			"from": 25,
+			"to": 58,
+			"status": "Success"
+		},
+		{
+			"from": 13,
+			"to": 59,
+			"status": "Success"
+		},
+		{
+			"from": 13,
+			"to": 60,
+			"status": "Success"
+		},
+		{
+			"from": 17,
+			"to": 61,
+			"status": "Success"
+		},
+		{
+			"from": 62,
+			"to": 17,
+			"status": "Success"
+		},
+		{
+			"from": 17,
+			"to": 63,
+			"status": "Success"
+		},
+		{
+			"from": 63,
+			"to": 23,
+			"status": "Success"
+		},
+		{
+			"from": 64,
+			"to": 7,
+			"status": "Success"
+		},
+		{
+			"from": 31,
+			"to": 64,
+			"status": "Success"
+		},
+		{
+			"from": 65,
+			"to": 10,
+			"status": "Success"
+		},
+		{
+			"from": 19,
+			"to": 66,
+			"status": "Success"
+		},
+		{
+			"from": 12,
+			"to": 67,
+			"status": "Success"
+		},
+		{
+			"from": 17,
+			"to": 68,
+			"status": "Success"
+		},
+		{
+			"from": 69,
+			"to": 12,
+			"status": "Success"
+		},
+		{
+			"from": 3,
+			"to": 70,
+			"status": "Success"
+		},
+		{
+			"from": 0,
+			"to": 71,
+			"status": "Success"
+		},
+		{
+			"from": 0,
+			"to": 72,
+			"status": "Success"
+		},
+		{
+			"from": 13,
+			"to": 73,
+			"status": "Success"
+		},
+		{
+			"from": 73,
+			"to": 3,
+			"status": "Success"
+		},
+		{
+			"from": 3,
+			"to": 74,
+			"status": "Success"
+		},
+		{
+			"from": 3,
+			"to": 75,
+			"status": "Success"
+		},
+		{
+			"from": 21,
+			"to": 76,
+			"status": "Success"
+		},
+		{
+			"from": 12,
+			"to": 77,
+			"status": "Success"
+		},
+		{
+			"from": 77,
+			"to": 25,
+			"status": "Success"
+		},
+		{
+			"from": 28,
+			"to": 78,
+			"status": "Success"
+		},
+		{
+			"from": 29,
+			"to": 78,
+			"status": "Success"
+		},
+		{
+			"from": 21,
+			"to": 79,
+			"status": "Success"
+		},
+		{
+			"from": 11,
+			"to": 80,
+			"status": "Success"
+		},
+		{
+			"from": 80,
+			"to": 21,
 			"status": "Success"
 		}
 	],

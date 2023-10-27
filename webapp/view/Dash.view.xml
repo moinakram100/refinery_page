@@ -1,44 +1,56 @@
 <mvc:View controllerName="refinerydash.controller.Dash"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:l ="sap.ui.layout"
+	xmlns:form="sap.ui.layout.form"
     xmlns="sap.suite.ui.commons.networkgraph"
     displayBlock="true"
     xmlns:m="sap.m">
     <m:Page id="page" title="{i18n>title}">
-    	<Graph enableWheelZoom="false"
+    	<Graph enableZoom="false"
 		   nodes="{/nodes}"
 		   lines="{/lines}"
 		   groups="{/groups}"
 		   id="graph"
 		   >
 		<statuses>
-			<Status id="_IDGenStatus1" key="CustomSuccess" title="Success" contentColor="sapUiCalendarColorToday" headerContentColor="sapUiCalendarColorToday"
-					borderColor="sapUiCalendarColorToday" selectedBackgroundColor="sapUiChartPaletteQualitativeHue10"
-					selectedBorderColor="sapUiChartPaletteQualitativeHue10" selectedContentColor="black"
+				<Status id="_IDGenStatus1" key="CustomSuccess" title="Success" contentColor="red" headerContentColor="red"
+					borderColor="red" selectedBackgroundColor="red"
+					selectedBorderColor="sapUiChartPaletteQualitativeHue10" selectedContentColor="red"
 					hoverBorderColor="sapUiCalendarColorToday" hoverContentColor="black"
-					hoverBackgroundColor="sapUiCalendarColorToday"
+					hoverBackgroundColor="red" 
 					legendColor="sapUiCalendarColorToday" useFocusColorAsContentColor="true"/>
 
-			<Status id="_IDGenStatus2" key="LineStatus" title="Line status"
-					borderColor="sapUiContentShadowColor" backgroundColor="sapUiContentShadowColor"
-					hoverBorderColor="sapUiContentShadowColor" hoverBackgroundColor="sapUiContentShadowColor"
-					legendColor="sapUiContentShadowColor"/>
 
-			<Status id="_IDGenStatus3" key="CustomStandard" title="Standard" backgroundColor="red"
-					borderColor="sapUiContentShadowColor" hoverBorderColor="sapUiContentShadowColor" />
+			<Status id="_IDGenStatus33" key="CustomGreen" legendColor="red"
+			        title="Standard" backgroundColor="green" selectedContentColor="black" contentColor="white" headerContentColor="white" 
+					borderColor="green" hoverBorderColor="sapUiContentShadowColor"  />
 
-			<Status id="_IDGenStatus4" key="CustomStandardGroup" title="Standard"
-					borderColor="sapUiContentShadowColor" backgroundColor="sapUiNeutralBorder"
-					hoverBackgroundColor="sapUiNeutralBorder"
-					hoverContentColor="sapUiFieldWarningColor"
-					contentColor="sapUiFieldHelpBackground" useFocusColorAsContentColor="true"
-					legendColor="sapUiContentShadowColor"/>
+			<Status id="_IDGenStatus34" key="CustomRed" 
+			        title="Standard" backgroundColor="red" contentColor="white" headerContentColor="white"
+					borderColor="red" hoverBorderColor="sapUiContentShadowColor" selectedContentColor="black" />
 
-			<Status id="_IDGenStatus5" key="AttributeLabel" contentColor="sapUiCalendarColorToday"
+			<Status id="_IDGenStatus35" key="CustomBlue" selectedContentColor="black"
+			        title="Standard" backgroundColor="blue" contentColor="white" headerContentColor="white"
+					borderColor="blue" hoverBorderColor="sapUiContentShadowColor" />
+
+			<Status id="_IDGenStatus36" key="CustomPink" 
+			        title="Standard" backgroundColor="pink" selectedContentColor="black" contentColor="black" headerContentColor="black"
+					borderColor="pink" hoverBorderColor="sapUiContentShadowColor" />
+
+			<Status id="_IDGenStatus37" key="CustomYellow" 
+			        title="Standard" backgroundColor="yellow" selectedContentColor="black" contentColor="black" headerContentColor="black"
+					borderColor="yellow" hoverBorderColor="sapUiContentShadowColor" />
+
+			<Status id="_IDGenStatus38" key="CustomGray" 
+			        title="Standard" backgroundColor="gray" selectedContentColor="black" contentColor="white" headerContentColor="white"
+					borderColor="gray" hoverBorderColor="sapUiContentShadowColor" />
+
+			<Status id="_IDGenStatus5" key="AttributeLabel" 
+			        contentColor="sapUiCalendarColorToday"
 					hoverContentColor="red"
 					selectedContentColor="red"/>
 
-			<Status id="_IDGenStatus6" key="AttributeValue" contentColor="green"/>
+			<Status id="_IDGenStatus6"  key="AttributeValue" borderColor="white"  contentColor="green"/>
 		</statuses>
 	
 		<nodes>
@@ -72,7 +84,8 @@
 			<Group id="_IDGenGroup1" key="{key}"
 			       class="group_item"
 				   status="CustomStandardGroup"
-				   title="{title}">
+				   title="{title}"
+				   >
 			</Group>
 		</groups>
 	</Graph>

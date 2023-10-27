@@ -1,7 +1,9 @@
-.container{
-  background-image: url('dash.png');
-}
 .group_item{
   display: none;
-  width: 50%;
+  width: 80%;
 }
+.data{
+  width : auto;
+  border: 2px solid transparent;
+}
+
