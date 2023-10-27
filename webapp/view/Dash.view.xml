@@ -10,6 +10,7 @@
 		   nodes="{/nodes}"
 		   lines="{/lines}"
 		   groups="{/groups}"
+		   class = "graph"
 		   id="graph"
 		   >
 		<statuses>

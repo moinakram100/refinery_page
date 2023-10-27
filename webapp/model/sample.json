@@ -267,6 +267,42 @@
 			"group":"G"
 		},
 		{
+			"key": 32,
+			"title": "SAT FG"
+		},
+		{
+			"key": 33,
+			"title": "UNSAT C4 (PART) TO NHT"
+		},
+		{
+			"key": 100,
+			"title": "H2 MIX"
+		},
+		{
+			"key": 101,
+			"title": "SWEET SAT LPG"
+		},
+		{
+			"key": 102,
+			"title": "TO FG"
+		},
+		{
+			"key": 103,
+			"title": "COMPRESSED H2 FROM PENEX"
+		},
+		{
+			"key": 104,
+			"title": "ACID GAS FROM SWS & ARU"
+		},
+		{
+			"key": 105,
+			"title": "ACID GAS FROM SWS & ARU"
+		},
+		{
+			"key": 106,
+			"title": "UOP"
+		},
+		{
 			"key": 34,
 			"shape": "Box",
 			"status": "Warning",
@@ -752,6 +788,26 @@
 					"label": "STRIPPER OFF GAS"
 				}
 			]
+		},
+		{
+			"key": 81,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "kEROSENE"
+				}
+			]
+		},
+		{
+			"key": 82,
+			"shape": "Box",
+			"status": "Warning",
+			"attributes": [
+				{
+					"label": "UNSAT C4 FROM PRU (PART)"
+				}
+			]
 		}
 	],
 	"lines": [
@@ -781,9 +837,7 @@
 		},
 		{
 			"from": 13,
-			"to": 8,
-			"status": "Warning",
-			"position": "Start"
+			"to": 8
 		},
 		{
 			"from": 3,
@@ -791,368 +845,347 @@
 		},
 		{
 			"from": 24,
-			"to": 2,
-			"status": "Success"
+			"to": 2
 		},
 		{
 			"from": 25,
-			"to": 23,
-			"status": "Success"
+			"to": 23
 		},
 		{
 			"from": 23,
-			"to": 14,
-			"status": "Success"
+			"to": 14
 		},
 		{
 			"from": 14,
-			"to": 31,
-			"status": "Success"
+			"to": 31
 		},
 		{
 			"from": 23,
-			"to": 27,
-			"status": "Success"
+			"to": 27
 		},
 		{
 			"from": 23,
-			"to": 17,
-			"status": "Success"
+			"to": 17
 		},
 		{
 			"from": 26,
-			"to": 25,
-			"status": "Success"
+			"to": 25
 		},
 		{
 			"from": 1,
-			"to": 21,
-			"status": "Success"
+			"to": 21
 		},
 		{
 			"from": 21,
-			"to": 1,
-			"status": "Success"
+			"to": 1
 		},
 		{
 			"from": 11,
-			"to": 3,
-			"status": "Success"
+			"to": 3
 		},
 		{
 			"from": 2,
-			"to": 16,
-			"status": "Success"
+			"to": 16
 		},
 		{
 			"from": 28,
-			"to": 15,
-			"status": "Success"
+			"to": 15
 		},
 		{
 			"from": 13,
-			"to": 6,
-			"status": "Success"
+			"to": 6
 		},
 		{
 			"from": 0,
-			"to": 5,
-			"status": "Success"
+			"to": 5
 		},
 		{
 			"from": 31,
-			"to": 7,
-			"status": "Success"
+			"to": 7
 		},
 		{
 			"from": 4,
-			"to": 9,
-			"status": "Success"
+			"to": 9
 		},
 		{
 			"from": 31,
-			"to": 12,
-			"status": "Success"
+			"to": 12
 		},
 		{
 			"from": 25,
-			"to": 15,
-			"status": "Success"
+			"to": 15
 		},
 		{
 			"from": 35,
-			"to": 2,
-			"status": "Success"
+			"to": 2
 		},
 		{
 			"from": 28,
-			"to": 29,
-			"status": "Success"
+			"to": 29
 		},
 		{
 			"from": 35,
-			"to": 22,
-			"status": "Success"
+			"to": 22
 		},
 		{
 			"from": 34,
-			"to": 21,
-			"status": "Success"
+			"to": 21
 		},
 		{
 			"from": 36,
-			"to": 21,
-			"status": "Success"
+			"to": 21
 		},
 		{
 			"from": 37,
-			"to": 5,
-			"status": "Success"
+			"to": 5
 		},
 		{
 			"from": 5,
-			"to": 38,
-			"status": "Success"
+			"to": 38
 		},
 		{
 			"from": 9,
-			"to": 39,
-			"status": "Success"
+			"to": 39
 		},
 		{
 			"from": 6,
-			"to": 40,
-			"status": "Success"
+			"to": 40
 		},
 		{
 			"from": 7,
-			"to": 41,
-			"status": "Success"
+			"to": 41
 		},
 		{
 			"from": 15,
-			"to": 42,
-			"status": "Success"
+			"to": 42
 		},
 		{
 			"from": 16,
-			"to": 43,
-			"status": "Success"
+			"to": 43
 		},
 		{
 			"from": 10,
-			"to": 44,
-			"status": "Success"
+			"to": 44
 		},
 		{
 			"from": 45,
-			"to": 28,
-			"status": "Success"
+			"to": 28
 		},
 		{
 			"from": 28,
-			"to": 46,
-			"status": "Success"
+			"to": 46
 		},
 		{
 			"from": 47,
-			"to": 29,
-			"status": "Success"
+			"to": 29
 		},
 		{
 			"from": 29,
-			"to": 48,
-			"status": "Success"
+			"to": 48
 		},
 		{
 			"from": 49,
-			"to": 24,
-			"status": "Success"
+			"to": 24
 		},
 		{
 			"from": 24,
-			"to": 50,
-			"status": "Success"
+			"to": 50
 		},
 		{
 			"from": 51,
-			"to": 35,
-			"status": "Success"
+			"to": 35
 		},
 		{
 			"from": 35,
-			"to": 52,
-			"status": "Success"
+			"to": 52
 		},
 		{
 			"from": 53,
-			"to": 16,
-			"status": "Success"
+			"to": 16
 		},
 		{
 			"from": 2,
-			"to": 54,
-			"status": "Success"
+			"to": 54
 		},
 		{
 			"from": 55,
-			"to": 16,
-			"status": "Success"
+			"to": 16
 		},
 		{
 			"from": 26,
-			"to": 56,
-			"status": "Success"
+			"to": 56
 		},
 		{
 			"from": 23,
-			"to": 57,
-			"status": "Success"
+			"to": 57
 		},
 		{
 			"from": 25,
-			"to": 58,
-			"status": "Success"
+			"to": 58
 		},
 		{
 			"from": 13,
-			"to": 59,
-			"status": "Success"
+			"to": 59
 		},
 		{
 			"from": 13,
-			"to": 60,
-			"status": "Success"
+			"to": 60
 		},
 		{
 			"from": 17,
-			"to": 61,
-			"status": "Success"
+			"to": 61
 		},
 		{
 			"from": 62,
-			"to": 17,
-			"status": "Success"
+			"to": 17
 		},
 		{
 			"from": 17,
-			"to": 63,
-			"status": "Success"
+			"to": 63
 		},
 		{
 			"from": 63,
-			"to": 23,
-			"status": "Success"
+			"to": 23
 		},
 		{
 			"from": 64,
-			"to": 7,
-			"status": "Success"
+			"to": 7
 		},
 		{
 			"from": 31,
-			"to": 64,
-			"status": "Success"
+			"to": 64
 		},
 		{
 			"from": 65,
-			"to": 10,
-			"status": "Success"
+			"to": 10
 		},
 		{
 			"from": 19,
-			"to": 66,
-			"status": "Success"
+			"to": 66
 		},
 		{
 			"from": 12,
-			"to": 67,
-			"status": "Success"
+			"to": 67
 		},
 		{
 			"from": 17,
-			"to": 68,
-			"status": "Success"
+			"to": 68
 		},
 		{
 			"from": 69,
-			"to": 12,
-			"status": "Success"
+			"to": 12
 		},
 		{
 			"from": 3,
-			"to": 70,
-			"status": "Success"
+			"to": 70
 		},
 		{
 			"from": 0,
-			"to": 71,
-			"status": "Success"
+			"to": 71
 		},
 		{
 			"from": 0,
-			"to": 72,
-			"status": "Success"
+			"to": 72
 		},
 		{
 			"from": 13,
-			"to": 73,
-			"status": "Success"
+			"to": 73
 		},
 		{
 			"from": 73,
-			"to": 3,
-			"status": "Success"
+			"to": 3
 		},
 		{
 			"from": 3,
-			"to": 74,
-			"status": "Success"
+			"to": 74
 		},
 		{
 			"from": 3,
-			"to": 75,
-			"status": "Success"
+			"to": 75
 		},
 		{
 			"from": 21,
-			"to": 76,
-			"status": "Success"
+			"to": 76
 		},
 		{
 			"from": 12,
-			"to": 77,
-			"status": "Success"
+			"to": 77
 		},
 		{
 			"from": 77,
-			"to": 25,
-			"status": "Success"
+			"to": 25
 		},
 		{
 			"from": 28,
-			"to": 78,
-			"status": "Success"
+			"to": 78
 		},
 		{
 			"from": 29,
-			"to": 78,
-			"status": "Success"
+			"to": 78
 		},
 		{
 			"from": 21,
-			"to": 79,
-			"status": "Success"
+			"to": 79
 		},
 		{
 			"from": 11,
-			"to": 80,
-			"status": "Success"
+			"to": 80
 		},
 		{
 			"from": 80,
-			"to": 21,
-			"status": "Success"
+			"to": 21
+		},
+		{
+			"from": 26,
+			"to": 81
+		},
+		{
+			"from": 4,
+			"to": 81
+		},
+		{
+			"from": 11,
+			"to": 82
+		},
+		{
+			"from": 32,
+			"to": 8
+		},
+		{
+			"from": 12,
+			"to": 33
+		},
+		{
+			"from": 31,
+			"to": 33
+		},
+		{
+			"from": 13,
+			"to": 100
+		},
+		{
+			"from": 100,
+			"to": 0
+		},
+		{
+			"from": 1,
+			"to": 101
+		},
+		{
+			"from": 20,
+			"to": 103
+		},
+		{
+			"from": 20,
+			"to": 102
+		},
+		{
+			"from": 104,
+			"to": 18
+		},
+		{
+			"from": 106,
+			"to": 26
 		}
 	],
 	"groups": [
